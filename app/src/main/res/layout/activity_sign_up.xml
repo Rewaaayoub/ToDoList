@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:paddingStart="37dp"
+    android:paddingEnd="37dp"
+    tools:context=".SignUpActivity">
+
+
+    <TextView
+        android:id="@+id/tv_label"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/sign_up_introduction"
+        android:layout_centerHorizontal="true"
+        android:textSize="28sp"
+        android:layout_marginTop="60dp"
+        android:gravity="center" />
+
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_label"
+        android:background="#8357DC"
+        android:layout_marginTop="38dp"
+        android:hint="@string/name"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_name"
+        android:background="#8357DC"
+        android:layout_marginTop="30dp"
+        android:hint="@string/password"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_password"
+        android:background="#8357DC"
+        android:layout_marginTop="30dp"
+        android:hint="@string/email"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:onClick="signUp"
+        android:id="@+id/btn_create_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/create_your_profile"
+        android:layout_below="@id/et_email"
+        android:padding="15dp"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/gradient_background" />
+
+    <TextView
+        android:id="@+id/tv_label2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/btn_create_profile"
+        android:text="@string/have_account"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/opacity_white"
+        android:layout_marginTop="34dp"
+        />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:onClick="login"
+        android:layout_below="@id/tv_label2"
+        android:text="@string/login"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>

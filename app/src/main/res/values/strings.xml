@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="things_to_do">Things ToDo</string>
+    <string name="next">next</string>
+    <string name="sign_up_introduction">Create Profile to start your first ToDo List</string>
+
+    <string name="name">Your name</string>
+    <string name="password">Password</string>
+    <string name="email">Your Email Address</string>
+
+    <string name="create_your_profile">Create your profile</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="login">Login</string>
+    <string name="welcome">Welcome back!</string>
+    <string name="have_not_account">Don\'t have an account</string>
+
+</resources>

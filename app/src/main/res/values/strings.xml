@@ -13,5 +13,14 @@
     <string name="login">Login</string>
     <string name="welcome">Welcome back!</string>
     <string name="have_not_account">Don\'t have an account</string>
+    <string name="logout">Logout</string>
+    <string name="lists">Lists: </string>
+    <string name="create_list">Create new list here </string>
+    <string name="create_task">Create new task here </string>
+    <string name="search">search</string>
+    <string name="save">save</string>
+    <string name="delete">delete</string>
+    <string name="edit">edit</string>
+
 
 </resources>
